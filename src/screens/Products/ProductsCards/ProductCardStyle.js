@@ -14,6 +14,8 @@ export const HolderCards = styled.div`
   justify-content: space-between;
   @media screen and (min-width: 320px) and (max-width: 768px) {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 `;
 export const Card = styled.div`
@@ -44,5 +46,8 @@ export const Card = styled.div`
   :hover img {
     transform: scale(1.2);
     background-color: rgba(0, 0, 0, 0.3);
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    width: 285px;
   }
 `;

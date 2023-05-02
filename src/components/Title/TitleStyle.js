@@ -1,9 +1,22 @@
 import styled from "styled-components";
 import { Colors } from "../../AppStyle";
 import line from "../../assets/images/line.svg";
-export const MainHolder = styled.div``;
+export const MainHolder = styled.div`
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+`;
 export const HolderTitle = styled.div`
   margin: 40px 0px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    margin: 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
   &.productCard {
     display: flex;
   }

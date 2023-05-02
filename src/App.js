@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import HomePage from "./screens/HomePage/HomePage";
 import AboutProducts from "./screens/AboutProducts/AboutProducts";
 import Products from "./screens/Products/Products";
+import { Contact } from "./screens/Contact/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HomePage />
       <AboutProducts />
       <Products />
+      <Contact />
     </>
   );
 }

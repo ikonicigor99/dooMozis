@@ -7,6 +7,10 @@ export const MainHolder = styled.div`
   justify-content: center;
   align-items: center;
   background-color: ${Colors.white};
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    height: 175vh;
+  }
 `;
 export const Content = styled.div`
   width: 880px;

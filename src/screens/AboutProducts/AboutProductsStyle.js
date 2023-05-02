@@ -8,7 +8,7 @@ export const MainHolder = styled.div`
   justify-content: center;
   background-color: ${Colors.white};
   @media screen and (min-width: 320px) and (max-width: 768px) {
-    height: 180vh;
+    height: 135vh;
   }
 `;
 export const Holder = styled.div`
@@ -18,12 +18,19 @@ export const Holder = styled.div`
   justify-content: center;
   @media screen and (min-width: 320px) and (max-width: 768px) {
     width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
 `;
 export const HolderCards = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 export const Card = styled.div`
   display: flex;
@@ -34,6 +41,10 @@ export const Card = styled.div`
   box-shadow: rgba(60, 64, 67, 0.19) 0px 0px 5px 1px;
   padding: 10px;
   height: 200px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    width: 230px;
+    margin-top: 15px;
+  }
 `;
 export const Icon = styled.div`
   img {

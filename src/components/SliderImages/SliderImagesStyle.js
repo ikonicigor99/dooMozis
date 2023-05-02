@@ -32,22 +32,27 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @media screen (min-width: 320px) and (max-width: 768px) {
-    width: 75%;
-
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    width: 90%;
     align-items: center;
   }
 `;
 export const Title = styled.div`
-  font-size: 35px;
+  font-size: 38px;
   color: ${Colors.white};
   text-align: center;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    font-size: 28px;
+  }
 `;
 export const Text = styled.div`
-  font-size: 15px;
+  font-size: 16px;
   line-height: 25px;
   font-style: italic;
   color: ${Colors.white};
   padding-top: 10px;
   text-align: center;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    font-size: 13px;
+  }
 `;
